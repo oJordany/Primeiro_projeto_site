@@ -1,0 +1,41 @@
+<!-- Antes, era craido um arquivo html para telas pequenas e outro para telas grandes. Isso não é legal -->
+<!-- Esse arquivo é só para demonstrar a responsividade , o oficial é o android.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width"> 
+            <title> Teste de responsividade</title>
+        </head>
+        <style>
+            body {
+                background-color: gray;
+            }
+            main {
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+
+                min-width: 260px; /* esse min e max width dão responsividade as letras quado diminuo ou aumento o tamanho da janela*/
+                max-width: 800px;
+                margin: auto;
+            }
+
+            img {
+                width: 100%; /* Isso aqui faz a imagem não quebrar e ficar repsonsiva, pois ela tem uma largura de 100%  */
+            }
+        </style>
+        <body>
+            <main>
+                <h1>Testando responsividade</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt neque vel possimus modi quaerat commodi ipsa inventore quia? Soluta dolorum repudiandae enim, tempora totam vero veritatis pariatur ipsam. Tempora? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis praesentium repellendus voluptas ut! Quasi veritatis distinctio soluta doloremque maiores iusto labore alias, perferendis culpa, earum, voluptatibus commodi cumque laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis odit inventore dicta, veniam sequi tenetur voluptates, voluptas dolorem aut fuga esse rem in assumenda deserunt est, earum vel repellendus! Nostrum.</p>
+                <picture> <!-- Usando o source para mudar a imagem -->
+                    <source media="(max-width: 600px)" srcset="pacote-projeto-d010/imagens/irina-blok-pq.jpg">
+                    <img src="pacote-projeto-d010/imagens/irina-blok.jpg" alt="irina block">
+                </picture>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt neque vel possimus modi quaerat commodi ipsa inventore quia? Soluta dolorum repudiandae enim, tempora totam vero veritatis pariatur ipsam. Tempora? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis praesentium repellendus voluptas ut! Quasi veritatis distinctio soluta doloremque maiores iusto labore alias, perferendis culpa, earum, voluptatibus commodi cumque laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis odit inventore dicta, veniam sequi tenetur voluptates, voluptas dolorem aut fuga esse rem in assumenda deserunt est, earum vel repellendus! Nostrum.</p>
+            </main>
+        </body>
+    </head>
+</html>
