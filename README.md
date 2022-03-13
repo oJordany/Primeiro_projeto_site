@@ -11,6 +11,7 @@
 ---
 
 <h2>Conhecimentos aplicados nesse projeto:</h2>
+
 - Formatação de textos em HTML
 - Utilização de links 
 - Utilização de listas
