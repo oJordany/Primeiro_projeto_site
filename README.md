@@ -1,9 +1,9 @@
 # <img src="https://cdn.iconscout.com/icon/free/png-256/html5-19-722707.png" alt="logo html" height="50px" width="50px"> <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="logo css" height="50px" width="50px"> Primeiro_projeto_site 
 
-<div align="center">
+<!-- <div align="center">
  <a href="https://ojordany.github.io/Primeiro_projeto_site/" alt='next'><img align=""src="https://cdn.discordapp.com/attachments/897609680073941012/963207775045971988/pngwing-edit.png" alt="clique-cursor" width="100px"></a>
  <h2>Clique aqui para visualizar o projeto</h2>
-</div>
+</div> -->
 
 <div align="left">
   <h2>Meu primeiro projeto de uma página de um site responsivo feito como um desafio durante meus estudos de HTML e CSS</h2>
